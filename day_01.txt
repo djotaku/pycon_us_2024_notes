@@ -53,10 +53,29 @@ note to self: post-talk to more research on the mock features described here.
 
 1145 - Flask-Con: Building Single Page Apps w/Flask - Adam Englander
 
+Used Quart since that's an async Flask
+
+To keep app from getting out of sync - want to just run on one server. Not a fornt end server and a backend server, etc. May be needed in the future if teh app gets huge - eg maybe want to split into microservices, etc. But that day is not today.
+
+App Overview slide:
+Flask/Quart backend with a React Frontend
+
+Managed by Vite because the team is not Javascript experts - this means they need less Javascript expertise to make their app work.
+
+using flask to serve static SPA content leads to easier integration testing. Speaker's company is very heavy on integration testing and TDD.
+
+What they lose with this config is in-app reload. 
+
+project structure: while simplest is to have front and back end directories, it can cause some issues like build dependencies if using Docker.
+
+project sturcture: They ended up having the python stuff in the project root and the frontend stuff in a frontend directory.
+
+Used react-typescript. They use typed python, so no big deal for the team.
 
 =========================
 
 1230 - Ruff: An Extremely Fast Python Linter and Code Formatter, Written in Rust
+
 
 
 =======================
