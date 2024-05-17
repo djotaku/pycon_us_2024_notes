@@ -93,14 +93,35 @@ next few slides are a walk-through of some optimizaitons they've done.
 
 interesting lesson that going from a Regex, to parsing manually (for the #noqa) made Ruff 1-2% faster. So more "elegant" code isn't necessarily better when it comes to optimization.
 
-for machines offsets was a better representation of where something is compared to rows/cols - which is what humans prefer
-
-
-
+for machines offsets was a better representation of where something is in the file compared to rows/cols - which is what humans prefer
 
 =======================
 
 1400 - Continuous Deployment and Release of Django Apps
+
+In a typical situation when you make an update you have to do a server restart which might lead to an interruption for site visitors.
+
+With the database you might have database migrations. How to do this without downtime?
+
+With k8s you have a liveness proe and a readiness prove (is it ready to serve incoming traffic?)
+
+One way to get around the server restart issue is to have a few pods with a rolling update policy. This way there's always at least one serer ready to serve requests
+
+part of what you need to do is make sure the right server is hitting the right version of the database. But they might be updated separately. 
+
+there's a library you can use django-safemigrate (look up more details)
+
+Recc: first add new table to database then add new model. (less breakage that way)
+
+Recc: create new table colum. Then upgrade the django app to need that model. What if field is non-nullable? First create a fake nullable col, then update app, then add the new field that is non-nullable. Then you'll need a script to fix the old data to all have data in this new column
+
+basically sometimes you need an intermediate version that is compatile with both versoins of the database.
+
+To remove a field, just do the opposite of above.
+
+Recc for renaming a field: Combine creating and deletin a field
+
+
 
 =======================
 
