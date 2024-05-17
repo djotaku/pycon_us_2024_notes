@@ -1,4 +1,19 @@
-Keynote: Jay
+Keynote: Jay Miller
+
+Founder of Black Python Devs
+
+First interaction with Python community (but really stack overflow) was "your code isn't pythonic"
+
+Second interaction was "your project is so cool, tell me more about it"
+
+Representation very important to see themself in leadership, keynote speaker, etc 
+
+Speaker happy to say that that they are not the first black python keynote speaker - awesome to be the fifth instead of first for once
+
+In 2022 only counted 12 attendees, speakers, conf expo hall other black participants
+
+Ultimately, their goal was to make a A something that would be a Wakanda for Python.
+
 
 
 
