@@ -26,6 +26,27 @@ were able to use $1500 to get 4 black python devs community leaders to their fir
 
 1100 - Mock It Till You Make It: how to verify your external mocks without ever leaving unittest
 
+how tests help us write better code - detect code smells; Also easier ot understand, maintain, and debug.
+
+to make sure on the same page: Unit testing - we are testing the smallest functions of code individually and independently.
+
+a good test should be repeatable and deterministic - if it passes, it should always pass no matter time of day, etc.
+
+a nice long name is great - will help make sure that it serves as documentatoin for devs new to the codebase
+
+part of what's bad/hard about mocking:
+- can flal out of sync with reality which cna render the unit tests unrealable and meaningless.
+
+See slide for Best practices
+
+Ocasisionally make sure your mocks are still accurate
+
+unittest.skip(reason) and skip conditionals. You can use these for example to run with mocks in dev, but not in prod.
+
+autospec is good for making sure your mocks are matching the object represented.
+
+note to self: post-talk to more research on the mock features described here.
+
 
 
 ========================
