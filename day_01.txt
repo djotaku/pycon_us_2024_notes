@@ -76,6 +76,26 @@ Used react-typescript. They use typed python, so no big deal for the team.
 
 1230 - Ruff: An Extremely Fast Python Linter and Code Formatter, Written in Rust
 
+The bulk of the talk is about what makes Ruff so fast. 
+
+see slide: "From source code to diagnostics"
+
+talks about how it creates an AST (abstract syntax tree)
+
+so what makes Ruff fast?
+
+1. Rust - written in pure Rust (300,000 LOC). Gives a fast baseline. Also Rust gives tools to write really, really fast programs - allows for more optimization than other programming languages. While it's a strength of python that the programmer doesn't have to care about memory - Rust forces you to think about whether you're writing on the stack or heap.
+2. Deduplication. For example, without ruff you might need to use Pyflakes, Pycodestyle, and pydocstyle. Each tool has to tokenize the code, create its own AST (or however the particular tool does it). But Ruff is only doing this once. 
+3. Concurrency/parallelism - Rust enables "fearless concurrency" - the compiler doesn't let you write most concurrency bugs. So Ruff can analyze all your files in parallel. 
+4. Culture - performance is everyone's problem. Small wins add up. Follow your curiosity. Constant learning. Ground decisions in data. 
+
+next few slides are a walk-through of some optimizaitons they've done.
+
+interesting lesson that going from a Regex, to parsing manually (for the #noqa) made Ruff 1-2% faster. So more "elegant" code isn't necessarily better when it comes to optimization.
+
+for machines offsets was a better representation of where something is compared to rows/cols - which is what humans prefer
+
+
 
 
 =======================
