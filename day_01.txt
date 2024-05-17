@@ -1,0 +1,37 @@
+Mock It Till You Make It: how to verify your external mocks without ever leaving unittest
+
+
+
+========================
+
+Flask-Con: Building Single Page Apps w/Flask - Adam Englander
+
+
+=========================
+
+Ruff: An Extremely Fast Python Linter and Code Formatter, Written in Rust
+
+
+=======================
+
+Continuous Deployment and Release of Django Apps
+
+=======================
+
+Pydantic Power-up: Performance Tips for Lightning-Fast Python Applications
+
+======================
+
+Procedurally Generated Monsters! A complete example of Python game development
+
+======================
+
+Interactive Software Documentation, with PyScript
+
+======================
+
+Build in-browser 3D experiences with WebGL and PyScript
+
+======================
+
+
