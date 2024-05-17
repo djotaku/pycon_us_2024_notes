@@ -14,8 +14,12 @@ In 2022 only counted 12 attendees, speakers, conf expo hall other black particip
 
 Ultimately, their goal was to make a A something that would be a Wakanda for Python.
 
+What can the Python community be more approachable to the black community?
+We try...
 
+As of yesterday they are a non-profit supported by the Gnome Foundation
 
+were able to use $1500 to get 4 black python devs community leaders to their first Pycon US.
 
 
 =======================
