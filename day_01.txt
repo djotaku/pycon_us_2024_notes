@@ -121,24 +121,38 @@ To remove a field, just do the opposite of above.
 
 Recc for renaming a field: Combine creating and deletin a field
 
-
-
 =======================
 
 1445 - Pydantic Power-up: Performance Tips for Lightning-Fast Python Applications
+
+good tips for better use of type hints with pydantic (see slides)
+
+
+trying to keep as much in Rust as possible before having it turn into Python objects
 
 ======================
 
 1530 - Procedurally Generated Monsters! A complete example of Python game development
 
+ended up not attending
+
 ======================
 
 1630 - Interactive Software Documentation, with PyScript
 
-======================
+obviously you want good documentation - it invites new devs in if you're doing an open source project. But also helps all the devs on the project
 
-1715 - Build in-browser 3D experiences with WebGL and PyScript
+examples of good docs: django, pyscript, pytorch, sci-kit learn
+
+what pyscript gives you over these exmaples is teh ability to have interactive documentation.
+
+
 
 ======================
 
 1800 - Lightning Talks
+
+I attended and also spoke, so could not take notes
+
+=====
+tip from Pycharm team in the vendor area - search for productivity in the everywhere search and it will give tons of tips. 
