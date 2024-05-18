@@ -127,7 +127,6 @@ Security open space
 - in your projects declare your intent of how much you want to deal with security. So people know whether to depend on your stuff
 
 
-
 ===========
 
 1430 - Eternal sunshine of the spotless development environment
@@ -137,14 +136,28 @@ Security open space
 
 1515 - Python and SQL: Better Together, Powered by DuckDB
 
+DuckDB is different than the usual SQL databaes. See the slide with the graph with SQLite, PostreSQL, and ClickHouse
+
+DuckDB's dialect is more like python than SQL
+
+if you're doing pandas (DuckDB seems to be targeted towards scientists/datascientists) you can read/write form/to dataframes
+
+It's compatible with PostgreSQL
+
 =========
 
 1615 - Talks: Creative Coding with py5, the Python version of Processing
+
+(interesting demo)
 
 ==========
 
 1700 - Talks: Demystifying AsyncIO: Building Your Own Event Loop in Python
 
+(need to rewatch to get all the details into my head)
+
 ==========
 
 1745 - Lightning Talks
+
+will add notes later - took notes on phone
