@@ -58,11 +58,25 @@ www.pyopensci.org/python-package-guide
 
 One of the things they prioritized for their packaging guide was to have an opnionated tutorial
 
+Wanted to make sure their guide was beginner-friendly so they started with expert feedback, but then had a community review to make sure it was still beginner friendly. Also key - makig it a living guidebook, not a blog post. They have had 51 contributors. They will sprint Monday at Pycon.
 
+Comparison of end-to-end tools (like Hatch) and individual tools (python -m build, twine upload, etc)
 
 ===========
 
 1115 - Making Python Safer than Ever
+
+See slide on top 10 risks with OSS
+
+CPython artifacts signed and stored on sigstore
+
+https://www.python.org/downloads/sigstore
+
+You can also use it in a GH action (sigstore) - see slide and also read up based on the URL on the slide
+
+PSF can create CVEs now (they are a CNA) for CPython and Pip
+
+
 
 ===========
 
