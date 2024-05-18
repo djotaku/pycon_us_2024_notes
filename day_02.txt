@@ -36,11 +36,29 @@ The challenge of the above is that while it's faster than manual generation, the
 
 speaker suggests not calling it Generative AI, but Transformative AI
 
-
-
 ============
 
 1030 - Friends don't let friends package alone
+
+Became a maintainer by mistake - meaning that the maintainer of the package was leaving, but the speaker didn't want the package to die.
+
+Turns out it needed modernization - it didn't have CI/CD or updated docs (Having let my docs fall out of date - I can relate!!)
+
+Speaker didn't have expertise in packaging so they turned to experts
+
+Paralized by choice in packaging (both a great and a terrible thing about the current python situation)
+
+Wanted to be able to maintain a package without becoming a packing expert
+
+I (not the speaker) will say this is where some other languages - Go, Rust - are doing things better. Maybe it's because those are compiled and that makes things easier in the end?
+
+Based on people the speaker talks to while educating (scientist) they want a default way to do this instead of a million ways to do it. 
+
+www.pyopensci.org/python-package-guide
+
+One of the things they prioritized for their packaging guide was to have an opnionated tutorial
+
+
 
 ===========
 
