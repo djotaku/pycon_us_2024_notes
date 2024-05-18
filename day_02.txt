@@ -20,7 +20,23 @@ Function calling tools in a loop. I'd heard this before, but it bears repeating 
 
 the above is easy to do in Python according to speaker. 
 
-Prompt injection - the security issue of LLMs. 
+Prompt injection - the security issue of LLMs. According to speaker - we currently don't know how to keep this from happening. (Similar to SQL injection in that you are combining data and instructions in the same data stream"
+
+to help prevent - never mix untrusted text with access to tools
+
+uses ML/AI as an enable for side projects
+
+"AI spoken word counter" - incredible live demo during conference
+
+Speaker once again reiterates that part of what AI/ML helps with is being able to knock out "side quests" quickly and get him to try out projects they might otherwise not do because it would take too long to learn all the libraries, etc.
+
+Structured Data Extraction - using AI/ML as part of journalism. Example - taking unstructured data (like police reports or PSF board reports) and putting it into a form that can be used by computers - eg put into a database.
+
+The challenge of the above is that while it's faster than manual generation, the human still needs to do some checking of the data.
+
+speaker suggests not calling it Generative AI, but Transformative AI
+
+
 
 ============
 
