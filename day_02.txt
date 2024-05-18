@@ -10,7 +10,17 @@ keynote: Simon Willison
 
 simonwillison.net
 
+Most of the AI companies are very secretive about their training data sources. Only Meta has been open about the source.
 
+just because a tool is flawed doesn't mean it's not useful!
+
+Usually an "open source" model is not. There are lots of little clauses that restrict the way it can be used.
+
+Function calling tools in a loop. I'd heard this before, but it bears repeating - you have to tell the LLM to do things like use calculators in order to get them closer to intelligence instead of just predictively giving the next word
+
+the above is easy to do in Python according to speaker. 
+
+Prompt injection - the security issue of LLMs. 
 
 ============
 
