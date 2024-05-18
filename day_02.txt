@@ -76,22 +76,63 @@ You can also use it in a GH action (sigstore) - see slide and also read up based
 
 PSF can create CVEs now (they are a CNA) for CPython and Pip
 
+They have increased the speed of dealing with vulns and malware reported to PyPi
+
+They had a security audit of PyPi funded with OTF (there was a pybites or talk python episode about this - try searching online ot add to notes)
 
 
 ===========
 
 1200 - Having fun with pydantic and pattern matching
 
+when using match case, the order of the cases is significant!
+
+exception handling works this way too
+
+for their talk, key to the stream of data is that it's a never-ending stream. Meaning you don't know when it ends.
+
+handling code gets really crazy with nested ifs very quickly
+
+use of Literal in the Pydantic model is awesome because it can restrict what can go there instead of just saying it's a stringm <- wow!!
+
+research more about TypeAdaptor from Pydantic 2.0
+
+look up functools singledispatch
+
+
+
 
 ============
 
 1330 - How Python Harnesses Rust through PyO3
+
+(skipped watch later)
+
+============
+
+Security open space
+
+- for attestation for PyPi look for Trusted Publisher documentation - Github can do this with an action
+
+- github has a vulnerability database advisaries - that's what makes dependabot alerts
+
+- you can use the GH vulns - and can request a CVE via Github. They have an open source CVE naming service
+
+- CVSS score calculator
+
+- you should create a Security.md that explains how you handle security (node.js is a great template)
+
+- Python and Github are working together ot get something similar to Go's Capslock Analyzer
+
+- in your projects declare your intent of how much you want to deal with security. So people know whether to depend on your stuff
+
 
 
 ===========
 
 1430 - Eternal sunshine of the spotless development environment
 
+(missed due to the security open space watch later)
 ==========
 
 1515 - Python and SQL: Better Together, Powered by DuckDB
