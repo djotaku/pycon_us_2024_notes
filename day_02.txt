@@ -1,0 +1,51 @@
+Diversity and Inclusion Panel
+
+- djangogirls group was introduction to python for one of the panelists
+- discussion about how keeping the community together during COVID was hard
+- discussion about how money can be key in keeping community going
+
+============
+
+keynote: Simon Willison
+
+simonwillison.net
+
+
+
+============
+
+1030 - Friends don't let friends package alone
+
+===========
+
+1115 - Making Python Safer than Ever
+
+===========
+
+1200 - Having fun with pydantic and pattern matching
+
+
+============
+
+1330 - How Python Harnesses Rust through PyO3
+
+
+===========
+
+1430 - Eternal sunshine of the spotless development environment
+
+==========
+
+1515 - Python and SQL: Better Together, Powered by DuckDB
+
+=========
+
+1615 - Talks: Creative Coding with py5, the Python version of Processing
+
+==========
+
+1700 - Talks: Demystifying AsyncIO: Building Your Own Event Loop in Python
+
+==========
+
+1745 - Lightning Talks
