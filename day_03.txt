@@ -26,13 +26,34 @@ Mostly an introduction to the two sec engineers. But also check the blog and the
 
 1100 - PyQt and PySide Open Space
 
+Pyside more pythonic bindings than PyQT
+
+Pyside has an ability to create truly compiled binaries with nuitka
+
+There was a Qt company hack-a-thon that will make the Qt Quick look native
+
+Look for the qt designer from pyside6 that has some extra stuff and their own pyide6 pyuic
+
+@cmaureir
+
 =============================
 
 1300 - AI, IP, and Your Code: What Developers Need to Know
 
+we usually think more about licenses in programming vs copyrights and trademarks
+
+because of hte monkey photography case - only humans can hold copyright and so AI cannot hold copyright
+
+training data - where did it come from? Even open source LLM usually is black box when it comes to the training data
+
+while using copyrighted data might not be copright infringement on its own - regurgitation is must more a direct copyright infringement
+
+
 ============================
 
 1345 - Connecting Old to New with CircuitPython: Retrocomputer input devices on modern PCs
+
+
 
 ===========================
 
