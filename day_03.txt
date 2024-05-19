@@ -1,0 +1,44 @@
+keynote: Kate Chapman
+
+equitable opportunities in tech
+
+Officially talk title - Ingredients for Collaboration in Sociotechnical ...(missed a word)
+
+We should all have equitable opportunities. Eg not everyone has internet access or stable internet access
+
+Sometimes when people say a problem is solved, it's solved for them, but not for everyone. 
+
+great exmaples with openstreetmap and how it helped with earthquake in Haiti
+
+what if the mapping happened ahead of time? Speaker started a (the?) OSM community in Jakarta
+
+for a lot of speaker's examples timing is very important to the collaboration
+
+Open Supply Hub is new project t oepxlore global supply chain data
+
+============================
+
+PSF - meet our security engineers
+
+
+===========================
+
+1100 - PyQt and PySide Open Space
+
+=============================
+
+1300 - AI, IP, and Your Code: What Developers Need to Know
+
+============================
+
+1345 - Connecting Old to New with CircuitPython: Retrocomputer input devices on modern PCs
+
+===========================
+
+1430 - Unlocking the Parallel Universe: Subinterpreters and Free-Threading in Python 3.13
+
+==============================
+
+1515 - keynote: Sumana Harihareswara
+
+==============================
