@@ -20,6 +20,7 @@ Open Supply Hub is new project t oepxlore global supply chain data
 
 PSF - meet our security engineers
 
+Mostly an introduction to the two sec engineers. But also check the blog and the QR codes at the end of the talk.
 
 ===========================
 
