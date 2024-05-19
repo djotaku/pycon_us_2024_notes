@@ -160,4 +160,69 @@ It's compatible with PostgreSQL
 
 1745 - Lightning Talks
 
-will add notes later - took notes on phone
+How low level can you go? 
+
+Does the except clause always work? 
+
+How to break Python interpreter itself…
+
+========
+
+The biggest threat of our time
+
+Xkcd comic where open source code maintained by just one guy Jenga
+
+Overall about supply chain security
+
+≠============
+
+They're not “soft skills”, they are professional skills
+ 
+Catalytic skills is a better term
+
+Be supportive in code reviews 
+
+Be nice when skiing for code changes (these slides go nuts in a good way) 
+
+≠=============
+
+Better mentoring
+
+Definitely watch this again - important for the interns we get
+
+=============
+Numpy 2.0.0 - 18 years in the making
+
+Speeds up array operations
+
+=====≠========≈
+
+Telling stories with data 
+
+5 hacks to develop the skills - especially when dealing with non-technical audience
+
+≠==============
+
+Talk on jupyter notebooks
+
+
+====≠============
+
+Should learn C
+
+Not necessarily write it, but there is value in learning it
+
+=================
+
+Surpass your coworkers using putting to automate the boring parts of your job
+
+=============
+
+5 things you didn't know about duckdb
+
+Jokes based on learning during an open space about duckdb. each joke leads to some information about the database
+
+================
+
+Bringing back my career with Python while raising kids 
+
