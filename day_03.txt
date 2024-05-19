@@ -53,14 +53,59 @@ while using copyrighted data might not be copright infringement on its own - reg
 
 1345 - Connecting Old to New with CircuitPython: Retrocomputer input devices on modern PCs
 
+speaker funded by Adafruit
+
+full version of each roject with complete source code on learn.adafruit.com and github (see links at end of slide deck)
+
+used KB2040 and QTPy RP2040
+
+most keyboards are wired as a matrix
+
+part of what helps this work is that old stuff in the 80s used to come with schematics when you bought it. So you don't have to guess or fuzz to figure out how it works.
+
+code for commodore keyboard is just 26 lines of code (not counting comments)
 
 
-===========================
+========================
 
 1430 - Unlocking the Parallel Universe: Subinterpreters and Free-Threading in Python 3.13
+
+funny talk - def worth watching again
+
+pre-req slide funny
+
+because of overhead (pickling, assigning tasks) you can't just divide the time to do something and say that's the time it takes to execute in parallel
+
+see the table of parallel execution in Python - explains a lot of the small details
+
+(note to self review parallel vs concurrency, etc)
+
+threads WAY slower than sub interpreters for calculating digits of pi (because of the threads overhead) - see that slide
+
+sub inter is like multiproc wiht less overhead and shared memory
+
+free threading - python 3.13b1 you can "disable" the GIL
+
+in py3.13 single-threaded code is faster ANYWAY
+
+GIL exists for thread safety <- super important point (according to speaker)
+
+there's a new ABi so special wheels and a special build of CPython needed
+
+full removal of GIL and compat with C libraries will take a long time (according to speaker). Code that is full Python can already work well without the GIL (to use these features)
+
+up to now it was a toy program - calculating pi digits. But this has implications with running Gunicorn.
 
 ==============================
 
 1515 - keynote: Sumana Harihareswara
+
+Untold stories from many years caring through infrastructure
+
+speaker was maintainer of pip for a while
+
+this talk is great. Shows, at least partly, that project management can be as useful as coding for FLOSS projects. This is great - usually folks say if you can't code - contribute to documentation. But here's another skill you can bring to a project.
+
+
 
 ==============================
